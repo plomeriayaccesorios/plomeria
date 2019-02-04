@@ -1,0 +1,20 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: 5E92-5079
+
+ Directorio de C:\projects\testGithub\shepniel.github.io\api\BROTIMEXIMAGENES
+
+14/11/2018  10:10 p. m.    <DIR>          .
+14/11/2018  10:10 p. m.    <DIR>          ..
+14/11/2018  09:31 p. m.            29,876 BROTIMEXALTADENSIDAD.png
+14/11/2018  09:30 p. m.            12,260 BROTIMEXCALZOMINA.jpg
+14/11/2018  09:31 p. m.            20,340 BROTIMEXESPATULA.png
+14/11/2018  09:31 p. m.            43,914 BROTIMEXIMPERMEABILIZAR.png
+14/11/2018  09:31 p. m.            14,996 BROTIMEXLAGUERA.jpg
+14/11/2018  09:30 p. m.            60,502 BROTIMEXLAMORENA.png
+14/11/2018  09:32 p. m.             9,684 BROTIMEXMANERALES.jpg
+14/11/2018  09:31 p. m.            40,977 BROTIMEXPALOFIJO.png
+14/11/2018  09:31 p. m.            47,990 BROTIMEXPINTAR.png
+14/11/2018  09:32 p. m.            71,122 BROTIMEXREPUESTOS.png
+14/11/2018  10:10 p. m.                 0 test.txt
+              11 archivos        351,661 bytes
+               2 dirs  191,043,284,992 bytes libres

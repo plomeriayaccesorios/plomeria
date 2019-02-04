@@ -1,0 +1,97 @@
+
+.card { background-color: #37474F;
+        font-family: 'Anton',sans-serif;
+        color: whitesmoke;
+
+}
+.cardUbi { background-color: #37474F;
+  font-family: 'Anton',sans-serif;
+  color: whitesmoke;
+
+}
+.mapouter{text-align:center;height:400px;width:400px;}
+
+.gmap_canvas {overflow:hidden;background:none!important;height:400px;width: 400px;;}
+
+body { padding-top: 70px; }
+h1{
+    font-family: 'Basic', sans-serif;
+    font-size: 100px;
+    color: #4285F4;
+  }
+  
+  h2{
+    font-family: 'Basic', sans-serif;
+    font-size: 50px;
+    color: #4285F4;
+  }
+
+  .h5{
+    font-family: 'Basic', sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+  }
+
+
+  .button{
+    margin: 0 auto;
+
+}
+
+  .font{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+  }
+
+.center-div
+{
+     margin: 0 auto;
+     width: 20; 
+     float: right;
+}
+
+.imgs {
+  padding:1px;
+  border:1px solid #021a40;
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
+}
+.imgs2 {
+
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
+}
+.footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    margin-top: 200px;
+    text-align: center;
+    background-color: #212121
+  }
+  html { background-color: #2E2E2E; }
+  .back{
+    background:  #2E2E2E;
+  }
+  .back2{
+    background:  #0099CC;
+  }
+  .image-container{text-align:center}
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+

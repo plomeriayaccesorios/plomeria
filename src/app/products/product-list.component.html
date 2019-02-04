@@ -1,0 +1,129 @@
+<div class="back">
+    <div class="container-fluid parallax back" style="margin-top: 65px">
+        <div class="card bg-white border-secondary mb-3">
+            <div class="card-header border-secondary bg-dark text-white text-center listTitle">
+                {{pageTitle}}
+            </div>
+            <div class="card-body border-secondary headerTable">
+                <div class="col-md-2 headerTable">Buscar por:</div>
+                <div class="col-md-2">
+                    <input type="text" [(ngModel)]='listFilter'>
+                </div>
+                <br>
+                <div class="row headerTable col-md-6">
+                    <div class="col-md-6">
+                        <h4>Filtrado por {{listFilter}}</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="table-responsive headerTable">
+                <table class="table"
+                       *ngIf='products && products.length'>
+                    <thead>
+                         <tr>
+                            <th>
+                                <button class="btn btn-primary"
+                                        (click)='toggleImage()'>
+                                    {{showImage ? 'Ocultar' : 'Mostrar'}} Imagen
+                                </button>
+                            </th>
+                            <th>Producto</th>
+                            <th>Medida</th>
+                            <th>Precio</th>
+                        </tr> 
+                    </thead>
+                    <tbody>
+                        <tr *ngFor='let product of filteredProducts  | paginate: { itemsPerPage: 25, currentPage: p }; let i = index'>
+                            <td>
+                                <img class='center-block img-responsive'
+                                     *ngIf='showImage'
+                                     [style.width.px]='250'
+                                     [style.margin.px]='2'
+                                     [src]='product.imageUrl'
+                                     [title]='product.productName | uppercase'
+                                     [align]='imageAlign'>
+                            </td>
+                            <td>
+                                <a [routerLink]="['/products',product.productId]">
+                                    {{product.productName}}
+                                </a>
+                            </td>
+                            <td>{{product.size | lowercase | convertToSpaces: '-'}}</td>
+                            <td>{{product.price | currency:'MXN':'symbol':'1.2-2'}}</td>
+                            <td>{{product.price | currency:'MXN':'symbol':'1.2-2'}}</td>
+                        </tr>
+                    </tbody>
+                    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+                </table>
+            </div> -->
+
+        </div>
+        <div class="list-group" *ngFor='let product of filteredProducts  | paginate: { itemsPerPage: 25, currentPage: p }; let i = index'>
+            <div class="card flex-row flex-wrap cardLista">
+                <div class="card-header border-2 cardLista">
+                    <img img class='center-block img-responsive' *ngIf='showImage' [style.width.px]='200'
+                        [style.height.px]='200' [src]='product.imageUrl' [title]='product.productName | uppercase'
+                        [align]='imageAlign'>
+                </div>
+                <div class="card-block px-2 cardLista">
+                    <h5 class="text-center" style="margin: 10px;"> <a [routerLink]="['/products',product.productId]">
+                            {{product.productName}}
+                        </a></h5>
+                    <p class="card-text " style="color: #212121;"><strong>Información del
+                            Producto</strong></p>
+                    <h6 class="card-text " style="color: #212121;">
+                        <strong>Precio: </strong>{{product.price | currency:'MXN':'symbol':'1.2-2'}} <br>
+                    </h6>
+                    <h6 class="card-text " style="color: #212121;">
+                        <strong>Medida: </strong>{{product.size | convertToSpaces: '-'}} <br>
+                    </h6>
+                    <h6 class="card-text " style="color: #212121;">
+                        <strong>Marca: </strong>{{product.brand | convertToSpaces: '-'}} <br>
+                    </h6>
+                    <a [routerLink]="['/products',product.productId]" class="btn btn-outline-primary">Ver ficha completa</a>
+                </div>
+                <div class="w-100"></div>
+                <div class="card-footer w-100 text-muted">
+                    Todos los precios están sujetos a cambios sin previo aviso
+                </div>
+            </div>
+        </div>
+        <pagination-controls (pageChange)="p = $event"></pagination-controls>
+
+        <!-- <div class="list-group" *ngFor='let product of filteredProducts  | paginate: { itemsPerPage: 25, currentPage: p }; let i = index'>
+            <a [routerLink]="['/products',product.productId]" class="list-group-item list-group-item-action flex-column align-items-left">
+              <div class="">
+                    <img class='center-block img-responsive'
+                    *ngIf='showImage'
+                    [style.width.px]='250'
+                    [style.height.px]='250'
+                    [src]='product.imageUrl'
+                    [title]='product.productName | uppercase'
+                    [align]='imageAlign'>
+                <h5 class="text-left">  <a [routerLink]="['/products',product.productId]">
+                    {{product.productName}}
+                </a></h5>
+                <small>{{product.brand}}</small>
+                <h6>Precio: {{product.price | currency:'MXN':'symbol':'1.2-2'}}</h6>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+              </div>
+             
+            </a>
+          </div> -->
+
+    </div>
+    <div class="footer">
+        <blockquote class="blockquote">
+            <ul class="list-unstyled">
+                <li class="text-white" style="font-weight: bold">Developed by </li>
+                <li class="text-primary">Shepsoft</li>
+                <li class="text-warning">
+                    <i class='fa fa-envelope-o'></i> shepfost@gmail.com</li>
+            </ul>
+            <footer class="blockquote-footer text-white" style="font-weight: bold">Chihuahua, Chih
+                <cite title="Source Title"> Shepsoft </cite>
+            </footer>
+        </blockquote>
+    </div>
+</div>

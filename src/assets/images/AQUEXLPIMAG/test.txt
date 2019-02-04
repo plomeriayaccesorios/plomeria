@@ -1,0 +1,14 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: 5E92-5079
+
+ Directorio de C:\projects\testGithub\shepniel.github.io\api\AQUEXLPIMAG
+
+14/11/2018  10:09 p. m.    <DIR>          .
+14/11/2018  10:09 p. m.    <DIR>          ..
+14/11/2018  07:42 p. m.            30,210 AQUEX1HIDROS.jpg
+14/11/2018  07:43 p. m.            12,294 AQUEX2HIDROS.jpg
+14/11/2018  07:40 p. m.            20,128 BOMBA_PERIFERICA_1-2_HP.jpg
+14/11/2018  07:41 p. m.            15,288 HIDRONEUMATICO1-2HP_24 LTS.jpg
+14/11/2018  10:09 p. m.                 0 test.txt
+               5 archivos         77,920 bytes
+               2 dirs  191,048,249,344 bytes libres
