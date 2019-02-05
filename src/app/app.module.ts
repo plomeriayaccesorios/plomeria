@@ -12,7 +12,7 @@ import { ProductDetailComponent } from './products/product-detail.component';
 import { WelcomeComponent } from './home/welcome.component';
 import { ProductDetailGuard } from './products/product-detail.guard';
 import {NgxPaginationModule} from 'ngx-pagination';
-import { UniquePipe } from './shared/uniquePipe';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 
 @NgModule({
@@ -22,14 +22,14 @@ import { UniquePipe } from './shared/uniquePipe';
     ConvertToSpacesPipe,
     StarComponent,
     ProductDetailComponent,
-    WelcomeComponent,
-    UniquePipe
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
     NgxPaginationModule,
     FormsModule,
     HttpClientModule,
+    Ng2SearchPipeModule,
     RouterModule.forRoot([
       { path: 'products', component:ProductListComponent},
       { path: 'products/:id', canActivate:[ProductDetailGuard],component:ProductDetailComponent},
