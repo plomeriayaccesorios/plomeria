@@ -1,0 +1,54 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: 5E92-5079
+
+ Directorio de C:\projects\testGithub\shepniel.github.io\api\DICALPIMAGENES
+
+14/11/2018  10:18 p. m.    <DIR>          .
+14/11/2018  10:18 p. m.    <DIR>          ..
+14/11/2018  07:54 p. m.            18,523 1200DICA.PNG
+14/11/2018  08:05 p. m.             6,824 3007DICA.png
+14/11/2018  08:05 p. m.             4,594 3248DICA.png
+14/11/2018  08:05 p. m.             7,646 4004.13DICA.png
+14/11/2018  08:01 p. m.             9,409 4004C.13DICA.jpg
+14/11/2018  08:06 p. m.             7,637 4042DICA.png
+14/11/2018  08:06 p. m.             5,338 4045NDICA.png
+14/11/2018  08:06 p. m.             5,915 4046VDICA.png
+14/11/2018  08:06 p. m.             5,097 4048VDICA.png
+14/11/2018  08:07 p. m.             9,311 4052SMCCDICA.png
+14/11/2018  08:07 p. m.             9,183 4061DICA.png
+14/11/2018  08:07 p. m.             4,435 4076DICA.png
+14/11/2018  08:01 p. m.            11,900 4085NDICA.jpg
+14/11/2018  08:07 p. m.             4,742 4091DICA.png
+14/11/2018  08:07 p. m.             4,652 4255.9DICA.png
+14/11/2018  08:07 p. m.             4,645 4317DICA.png
+14/11/2018  08:08 p. m.             3,997 4318DICA.png
+14/11/2018  08:08 p. m.             3,638 4322DICA.png
+14/11/2018  08:08 p. m.             3,148 4401DICA.png
+14/11/2018  08:08 p. m.             6,241 4420DICA.png
+14/11/2018  08:08 p. m.             5,279 4423DICA.png
+14/11/2018  08:08 p. m.             4,913 4426DICA.png
+14/11/2018  08:09 p. m.             4,044 4427DICA.png
+14/11/2018  08:09 p. m.             4,956 4500BDICA.png
+14/11/2018  08:09 p. m.             4,661 4501BDICA.png
+14/11/2018  08:09 p. m.             6,309 4504BDICA.png
+14/11/2018  07:57 p. m.             6,982 4506BDICA.png
+14/11/2018  08:11 p. m.             5,544 4506BVDICA.png
+14/11/2018  08:11 p. m.             6,173 4510BDICA.png
+14/11/2018  08:11 p. m.             6,133 4520DICA.png
+14/11/2018  08:11 p. m.             5,296 4521DICA.png
+14/11/2018  08:11 p. m.             8,426 4652DICA.png
+14/11/2018  08:11 p. m.             5,468 ADGDICA.png
+14/11/2018  08:00 p. m.             9,409 DICA01.jpg
+14/11/2018  08:12 p. m.             5,187 FDGDICA.png
+14/11/2018  08:12 p. m.             4,998 HDGDICA.png
+14/11/2018  08:12 p. m.             6,279 MCGDICA.png
+14/11/2018  08:12 p. m.             5,159 MJGDICA.png
+14/11/2018  08:12 p. m.             6,156 MMGDICA.png
+14/11/2018  08:12 p. m.             4,699 MSGDICA.png
+14/11/2018  08:13 p. m.             7,400 MTGDICA.png
+14/11/2018  08:13 p. m.             5,089 QDCDICA.png
+14/11/2018  08:13 p. m.             5,631 QDGDICA.png
+14/11/2018  08:13 p. m.             5,818 RDGDICA.png
+14/11/2018  10:18 p. m.                 0 test.txt
+              45 archivos        276,884 bytes
+               2 dirs  191,044,538,368 bytes libres

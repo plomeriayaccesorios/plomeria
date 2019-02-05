@@ -1,0 +1,14 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: 5E92-5079
+
+ Directorio de C:\projects\testGithub\shepniel.github.io\api\TINACOSLPIMAGENES
+
+14/11/2018  10:06 p. m.    <DIR>          .
+14/11/2018  10:06 p. m.    <DIR>          ..
+14/11/2018  09:04 p. m.             6,603 BIODIGESTOR.jpg
+14/11/2018  09:04 p. m.             9,207 BIODIGESTOR2.jpg
+14/11/2018  09:04 p. m.            52,663 CISTERNA.jpg
+14/11/2018  10:06 p. m.                 0 test.txt
+14/11/2018  09:04 p. m.            66,074 TINACO.jpg
+               5 archivos        134,547 bytes
+               2 dirs  191,043,919,872 bytes libres

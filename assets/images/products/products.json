@@ -1,0 +1,52 @@
+[
+  {
+    "productId": 1,
+    "productName": "Ya bien",
+    "productCode": "GDN-0011",
+    "releaseDate": "March 19, 2016",
+    "description": "No jalo",
+    "price": 80,
+    "starRating": 3.2,
+    "imageUrl": "https://shepniel.github.io/api/products/VALVULA_DESMONTABLE.jpg"
+  },
+  {
+    "productId": 2,
+    "productName": "Carrito Control",
+    "productCode": "GDN-0023",
+    "releaseDate": "March 18, 2016",
+    "description": "15 gallon capacity rolling garden cart",
+    "price": 32.99,
+    "starRating": 4.2,
+    "imageUrl": "https://icon2.kisspng.com/20180729/lbq/kisspng-xbox-one-controller-samsung-gear-vr-game-controlle-xbox-one-controller-5b5d4ae992cb34.9376652515328406816013.jpg"
+  },
+  {
+    "productId": 5,
+    "productName": "MArtillo",
+    "productCode": "TBX-0048",
+    "releaseDate": "May 21, 2016",
+    "description": "Curved claw steel hammer",
+    "price": 90,
+    "starRating": 4.8,
+    "imageUrl": "https://banner2.kisspng.com/20180206/hxw/kisspng-black-xbox-360-controller-joystick-game-controller-xbox-controller-png-pic-5a798c1aaf93b5.8758212515179151627192.jpg"
+  },
+  {
+    "productId": 8,
+    "productName": "Hola",
+    "productCode": "TBX-0022",
+    "releaseDate": "May 15, 2016",
+    "description": "Holax2",
+    "price": 90,
+    "starRating": 3.7,
+    "imageUrl": "https://banner2.kisspng.com/20180205/rzw/kisspng-carpenter-icon-hand-saw-png-transparent-image-5a7804d6c3d881.9528697315178149988022.jpg"
+  },
+  {
+    "productId": 10,
+    "productName": "XBox Controller",
+    "productCode": "GMG-0042",
+    "releaseDate": "October 15, 2015",
+    "description": "Testeando",
+    "price": 195,
+    "starRating": 4.6,
+    "imageUrl": "https://8fddbd524b5976832632-bb1139a233dd1615ca84f744f3688ee9.ssl.cf5.rackcdn.com/xboxone/shell_designs/galaxy/f-standard-black.png"
+  }
+]
