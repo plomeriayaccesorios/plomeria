@@ -22,6 +22,7 @@ export class ProductListComponent implements OnInit {
     errorMessage: string;
     _listFilter : string;
     _listFilter2 : string;
+    filter: any;
     p: number = 1;
      get listFilter() : string {
       return this._listFilter;
