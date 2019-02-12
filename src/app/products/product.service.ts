@@ -11,6 +11,7 @@ import {catchError, tap, map} from 'rxjs/operators';
 
 export class ProductService{
 
+  //private productUrl = '../../assets/images/products/jsonDataCatalog3.json'
   private productUrl = 'https://plomeriayaccesorios.github.io/plomeria/assets/images/products/jsonDataCatalog3.json'
   constructor(private http: HttpClient){
     
